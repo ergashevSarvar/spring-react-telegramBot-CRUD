@@ -1,0 +1,25 @@
+server:
+  port: 3001
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: 00229005
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQL92Dialect
+    hibernate:
+      ddl-auto: update
+upload:
+  server:
+    folder: C:/Users/boqiy/Downloads/mohirdev-master/uploads
+api:
+  jsonplaceholder: https://jsonplaceholder.typicode.com
+jwt:
+  token:
+    secret: AKSALEKS_JWT_SECRET
+    validity: 86400000
+bot:
+  name: SpringReactBot
+  token: 5817247053:AAG44xpUbSwMKXsRBQzti90ln9G9Ac208E0
